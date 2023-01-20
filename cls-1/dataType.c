@@ -8,10 +8,10 @@ int main() {
     a = 25.666;
 
 
-    // This it single line commnets
+    // This it single line comments
     /*
 
-        multiline comment
+        multi-line comment
 
     */
 
