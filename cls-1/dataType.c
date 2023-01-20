@@ -16,7 +16,7 @@ int main() {
     */
 
     // show output
-
+    // new line \n
     printf("hello world\n");
     printf("hello abid");
     return 0;
