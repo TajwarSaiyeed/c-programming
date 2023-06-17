@@ -118,7 +118,7 @@ int main() {
 
         Instead of using multiple if statements, we can also
         use else if along with if thus forming an
-        if - else if - else
+        if - else if - else ladder.
 
 
         NOTE: else if clause is better then multiple if statement
