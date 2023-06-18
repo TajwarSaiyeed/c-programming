@@ -133,6 +133,26 @@ int main() {
                 ...code
             }
 
+        Using if - else if - else reduces indents
+        The last "else" is optional
+        Also there can be any number of "else if"
+
+        Last "else" is executed only if all conditions fail.
+
+
+        Operator Precedence
+
+        Priority Operator
+            1st     !
+            2nd     *,/,%
+            3rd     +,-
+            4th     <,>,<=,>=
+            5th     ==, !=
+            6th     &&
+            7th     ||
+            8th     =
+
+
     */
 
     int age = 16;
