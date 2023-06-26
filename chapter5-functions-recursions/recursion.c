@@ -23,6 +23,16 @@
             factorial(n) = n * n-1 * n-2 * n-3 * ...... * 1
             factorial(n) = n * (n-1 * n-2 * n-3 * ...... * 1)
             factorial(n) = n * factorial(n-1)
+
+
+    IMPORTANT NOTE:
+        1. Recursion is sometimes the most direct way to code an algorithm.
+        2. The condition which does not call the function any further
+            in a recursive function is called as the base condition.
+
+        3. Sometimes, due to a mistake made by the programmer,
+            a recursive function can keep running without returning
+            resulting in a memory error.
 */
 
 
