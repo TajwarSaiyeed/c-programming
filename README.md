@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)()
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/tajwarsaiyeed/C-Programming)]()
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/tajwarsaiyeed/C-Programming)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
