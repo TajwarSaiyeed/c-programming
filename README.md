@@ -6,9 +6,9 @@
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)(Tajwar Saiyeed)
-[![GitHub Issues](https://img.shields.io/github/issues/tajwarsaiyeed/C-Programming)](Tajwar Saiyeed)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/tajwarsaiyeed/C-Programming)](Tajwar Saiyeed)
+[![Status](https://img.shields.io/badge/status-active-success.svg)()
+[![GitHub Issues](https://img.shields.io/github/issues/tajwarsaiyeed/C-Programming)]()
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/tajwarsaiyeed/C-Programming)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
@@ -61,7 +61,7 @@ C is a general-purpose, procedural computer programming language supporting stru
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@tajwarsaiyeed](Tajwar Saiyeed) - Idea & Initial work
+- [@tajwarsaiyeed]() - Idea & Initial work
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
