@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main () {
+int main()
+{
     /*
         arithmetic instructions
         int i = (3 * 2) + 5
@@ -8,8 +9,9 @@ int main () {
         operands 3,2,5
     */
 
-    int b =2, c =3;
-    int z; z = b*c; // legal
+    int b = 2, c = 3;
+    int z;
+    z = b * c; // legal
     // int z; b * c =z; // Illegal (Not allowed)
 
     /*
@@ -31,6 +33,4 @@ int main () {
         There is no operator to perform exponentiation in c
         however we can use pow(x, y) from<math.h>
     */
-
-
 }

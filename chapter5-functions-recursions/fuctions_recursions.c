@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /*
     Functions & Recursions
@@ -36,8 +36,8 @@ void display(); // function prototype
 
 */
 
-
-int main() {
+int main()
+{
     int a;
     // function call
     display();
@@ -54,9 +54,9 @@ int main() {
     return 0;
 }
 
-
 // function definition
-void display() {
+void display()
+{
     printf("Hi, display\n");
 }
 
@@ -72,4 +72,3 @@ void display() {
 
 
 */
-

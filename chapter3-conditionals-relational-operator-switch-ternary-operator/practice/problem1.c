@@ -1,30 +1,33 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /*
     What will be the output of the problem
 */
 
-int main() {
+int main()
+{
 
     int a = 10;
 
     // wrong code
-    if(a=11) {
+    if (a = 11)
+    {
         printf("a is 11");
-    } else {
+    }
+    else
+    {
         printf("a is 10");
     }
-
-
-
 
     // Right code
-    if(a==11) {
+    if (a == 11)
+    {
         printf("a is 11");
-    } else {
+    }
+    else
+    {
         printf("a is 10");
     }
-
 
     return 0;
 }

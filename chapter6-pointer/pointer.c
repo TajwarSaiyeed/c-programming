@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 /*
     A pointer is a variable which stores the address of another variable
 
@@ -35,7 +35,8 @@
     1024 mb = 1 gb
 */
 
-int main() {
+int main()
+{
     int i = 72; // 4 bytes
     int j = 45;
     // & operator or address of operator
@@ -43,16 +44,3 @@ int main() {
     printf("The address of j is %u, value at &j %d\n", &j, *(&j));
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

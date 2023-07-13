@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
+int main()
+{
 
     /*
         There are major data types in C
@@ -26,15 +27,14 @@ int main() {
 
     */
 
-    int a =2, b; b =a; // valid
+    int a = 2, b;
+    b = a; // valid
 
-    int v = 3^3; // valid
+    int v = 3 ^ 3; // valid
     // printf("b = %d\nv = %d",b, v);
 
     char dt = '13 jun 2023'; // invalid
     // printf("%c", dt);
-
-
 
     return 0;
 }

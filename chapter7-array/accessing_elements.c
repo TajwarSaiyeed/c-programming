@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
+int main()
+{
     // Accessing elements
     // Elements of an array can be accessed using
 

@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /*
     What will the following line produce in a c program:
@@ -6,8 +6,8 @@
 
 */
 
-
-int main() {
+int main()
+{
     int a = 10;
     printf(" a = %d\n ++a = %d\n a++ = %d\n", a, ++a, a++);
     return 0;

@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /*
     Quick Quiz:
@@ -11,12 +11,11 @@
 
 */
 
-
 // function prototype
-void good_morning(),good_afternoon(),good_night();
+void good_morning(), good_afternoon(), good_night();
 
-
-int main() {
+int main()
+{
     // function call
     good_morning();
     good_afternoon();
@@ -25,12 +24,15 @@ int main() {
 }
 
 // functions definition
-void good_morning(){
+void good_morning()
+{
     printf("Good Morning\n");
 }
-void good_afternoon(){
+void good_afternoon()
+{
     printf("Good Afternoon\n");
 }
-void good_night(){
+void good_night()
+{
     printf("Good Night\n");
 }

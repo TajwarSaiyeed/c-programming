@@ -1,15 +1,16 @@
-#include<stdio.h>
+#include <stdio.h>
 /*
     Write a program to sum first ten natural
     numbers using (while loop);
 */
 
+int main()
+{
 
-int main() {
-
-    int i = 1, sum =0;
-    while(i<=10) {
-        sum +=i;
+    int i = 1, sum = 0;
+    while (i <= 10)
+    {
+        sum += i;
         i++;
     }
 

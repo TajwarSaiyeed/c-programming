@@ -1,6 +1,6 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /*
     Project 1: Number Guessing Game
 
@@ -18,26 +18,32 @@
 
 */
 
-int main() {
+int main()
+{
 
-    int number, guess, nGuesses=1;
-    srand(time(0)); // get the system time time(0) as an integer
-    number = rand()%100+1; // 1 - 100 random number
+    int number, guess, nGuesses = 1;
+    srand(time(0));            // get the system time time(0) as an integer
+    number = rand() % 100 + 1; // 1 - 100 random number
 
     do
     {
         printf("\nGuess the number between 1 to 100: ");
         scanf("%d", &guess);
-        if(guess > number) {
+        if (guess > number)
+        {
             printf("\nLower number please");
-        } else if (guess < number) {
+        }
+        else if (guess < number)
+        {
             printf("\nGreater number please");
-        } else {
+        }
+        else
+        {
             printf("\nYayy you got it!\nYou took %d attempts.", nGuesses);
         }
         nGuesses++;
 
-    } while (guess!=number);
+    } while (guess != number);
 
     return 0;
 }

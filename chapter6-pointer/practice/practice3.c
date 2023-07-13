@@ -1,13 +1,14 @@
 
-#include<stdio.h>
+#include <stdio.h>
 /*
     Write a program to change the value of a variable to ten times of its current value.
     write a function and pass the value by reference.
 */
 
-void change(int*);
+void change(int *);
 
-int main(){
+int main()
+{
     int i = 1000;
     printf("The value of i before change function run is: %d\n", i);
     change(&i);
@@ -15,6 +16,7 @@ int main(){
     return 0;
 }
 
-void change(int *a) {
-    *a = *(a) * 10;
+void change(int *a)
+{
+    *a = *(a)*10;
 }

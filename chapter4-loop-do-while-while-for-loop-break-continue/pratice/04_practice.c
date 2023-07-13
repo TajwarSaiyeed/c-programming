@@ -10,23 +10,24 @@
 
 */
 
-int main() {
+int main()
+{
 
-    int forNum =5, whileNum =5;
+    int forNum = 5, whileNum = 5;
 
-
-    for(int i = 1; i<=10;i++) {
-        printf("For Num %d X %d = %d\n", forNum, i, forNum*i);
+    for (int i = 1; i <= 10; i++)
+    {
+        printf("For Num %d X %d = %d\n", forNum, i, forNum * i);
     }
 
     printf("\n");
 
     int j = 1;
-    while(j<=10) {
-        printf("While Num %d X %d = %d\n", whileNum, j, whileNum*j);
+    while (j <= 10)
+    {
+        printf("While Num %d X %d = %d\n", whileNum, j, whileNum * j);
         j++;
     }
-
 
     /*
         OUTPUT:
@@ -53,10 +54,5 @@ int main() {
             While Num 5 X 10 = 50
     */
 
-
     return 0;
 }
-
-
-
-

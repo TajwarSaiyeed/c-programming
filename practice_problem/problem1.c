@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
+int main()
+{
 
     float length, breadth;
     printf("length of Rectangle: ");

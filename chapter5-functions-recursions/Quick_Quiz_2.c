@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<math.h>
+#include <stdio.h>
+#include <math.h>
 
 /*
     Quick Quiz:
@@ -7,10 +7,10 @@
         of a square with side a.
 */
 
-
-int main() {
-    double a =2 ;
-    printf("The area of the square is: %lf", pow(a,2));
+int main()
+{
+    double a = 2;
+    printf("The area of the square is: %lf", pow(a, 2));
 
     return 0;
 }

@@ -1,8 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
-
-
-int main() {
+int main()
+{
     int i = 0;
     /*
         Quick Quiz:
@@ -10,8 +9,10 @@ int main() {
         when initial loop counter is initialed to 0.
     */
 
-    while(i<=20) {
-        if (i >= 10) {
+    while (i <= 20)
+    {
+        if (i >= 10)
+        {
             printf("The value of i is: %d\n", i);
 
             /*
@@ -31,7 +32,6 @@ int main() {
         }
         i++;
     }
-
 
     return 0;
 }

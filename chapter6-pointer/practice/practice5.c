@@ -1,12 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /*
     Write a program to print the value of a variable i by
     using pointer to pointer type of variable.
 */
 
-
-int main() {
+int main()
+{
     int i = 3;
     int *ptr1 = &i;
     int **ptr2 = &ptr1;

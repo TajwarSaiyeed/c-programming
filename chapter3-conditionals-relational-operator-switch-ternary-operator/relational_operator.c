@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /*
     Relational Operators in C
@@ -31,21 +31,19 @@
 
 */
 
-
-
-int main() {
+int main()
+{
 
     // Non-zero value
 
-    if (23) {
+    if (23)
+    {
         printf("Any non zero value is evaluated to true.\n");
     }
 
-
-    int a = 34, b=5;
+    int a = 34, b = 5;
 
     // Usage of logical operators.
-
 
     /*
         && "AND" -> is true when both the conditions are true.
@@ -56,12 +54,14 @@ int main() {
         false &&  false = false -> 0 && 0 = false
     */
 
-    if (a>7 && b<4) { // check both of this conditions true
+    if (a > 7 && b < 4)
+    { // check both of this conditions true
         printf("Yes true\n");
-    } else {
+    }
+    else
+    {
         printf("No true\n");
     }
-
 
     /*
         || "OR" -> is true when at least one of the conditions is true.
@@ -72,10 +72,12 @@ int main() {
         false || false = false -> 0 || 0 = false
     */
 
-
-    if (a>7 || b<4) { // check both and check if one condition true
+    if (a > 7 || b < 4)
+    { // check both and check if one condition true
         printf("One is true\n");
-    } else {
+    }
+    else
+    {
         printf("Both are false\n");
     }
 
@@ -86,11 +88,13 @@ int main() {
 
     */
 
-    if (!(3==3)) {
+    if (!(3 == 3))
+    {
         printf("false\n");
     }
 
-    if (!(3>30)) {
+    if (!(3 > 30))
+    {
         printf("true\n");
     }
 
@@ -157,14 +161,18 @@ int main() {
 
     int age = 16;
 
-    if (age > 18) {
+    if (age > 18)
+    {
         printf("You are eligible to drive");
-    } else if (age > 15) {
+    }
+    else if (age > 15)
+    {
         printf("You are not eligible to drive. but we will check for a toy vehicle for you!");
-    } else{
+    }
+    else
+    {
         printf("You can not drive.");
     }
-
 
     return 0;
 }

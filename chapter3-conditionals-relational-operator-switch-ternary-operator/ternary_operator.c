@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /*
     Conditional operators
@@ -13,13 +13,13 @@
 
 */
 
-
-int main() {
+int main()
+{
 
     int b = 8;
     int c = 6;
     // condition true ? assign 3 : assign 7
-    int a = (c==b) ? 3 : 7;
+    int a = (c == b) ? 3 : 7;
     printf("The value of a is : %d", a);
     return 0;
 }

@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /*
     Write a program to find out whether a student
@@ -8,7 +8,8 @@
 
 */
 
-int main() {
+int main()
+{
 
     int sub1, sub2, sub3;
     printf("Enter marks for subject 1: ");
@@ -18,20 +19,23 @@ int main() {
     printf("\nEnter marks for subject 3: ");
     scanf("%d", &sub3);
 
-    float total = (sub1 + sub2 + sub3)/3;
+    float total = (sub1 + sub2 + sub3) / 3;
 
-    if(total >= 40) {
-        if (sub1<33 || sub2 <33 || sub3 < 33){
+    if (total >= 40)
+    {
+        if (sub1 < 33 || sub2 < 33 || sub3 < 33)
+        {
             printf("Sorry you are not passed because your marks in one of the subjects is less than 33");
-        } else {
+        }
+        else
+        {
             printf("Congratulation you have passed the exam.");
         }
-
-    } else {
+    }
+    else
+    {
         printf("Sorry you are not passed because your marks are less then then 40%%");
     }
-
-
 
     return 0;
 }

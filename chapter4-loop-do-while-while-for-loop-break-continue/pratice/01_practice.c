@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /*
     write a program to print multiplication
@@ -6,12 +6,14 @@
 
 */
 
-int main() {
+int main()
+{
     int n;
     printf("Enter the value of n: ");
     scanf("%d", &n);
-    for(int i =1; i<=10; i++) {
-        printf("%d X %d = %d\n", n, i, n*i);
+    for (int i = 1; i <= 10; i++)
+    {
+        printf("%d X %d = %d\n", n, i, n * i);
     }
 
     /*
@@ -28,7 +30,6 @@ int main() {
             5 X 9 = 45
             5 X 10 = 50
     */
-
 
     return 0;
 }

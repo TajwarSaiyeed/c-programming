@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
+int main()
+{
 
     /*
         Type Conversion
@@ -30,11 +31,11 @@ int main() {
 
     float b = 8; // a will store 8.0; 8 => 8.0 (promotion to float)
 
-    int x = 3.0/9;
+    int x = 3.0 / 9;
 
     printf("%d \n", x); // x = 0
 
-    float x2 = 3.0/9;
+    float x2 = 3.0 / 9;
 
     printf("%f \n", x2); // x2 = 0.33333
 

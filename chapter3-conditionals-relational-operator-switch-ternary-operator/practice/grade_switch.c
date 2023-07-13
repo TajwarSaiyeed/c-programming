@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /*
     Write a program to find grade of a student give his
@@ -14,7 +14,8 @@
 
 */
 
-int main() {
+int main()
+{
 
     int marks;
     printf("Enter your mark: ");
@@ -22,49 +23,62 @@ int main() {
 
     int grade = marks / 10;
 
-
     // Here is a bug
-    switch (grade) {
+    switch (grade)
+    {
     case 10:
-        case 9:
-            case 8:
-                printf("Grade: A+\n");
-                break;
-            case 7:
-                printf("Grade: A\n");
-                break;
-            case 6:
-                printf("Grade: A-\n");
-                break;
-            case 5:
-                printf("Grade: B\n");
-                break;
-            case 4:
-                printf("Grade: C\n");
-                break;
-            case 3:
-                printf("Grade: D\n");
-                break;
-            default:
-                printf("Grade: F\n");
-                break;
+    case 9:
+    case 8:
+        printf("Grade: A+\n");
+        break;
+    case 7:
+        printf("Grade: A\n");
+        break;
+    case 6:
+        printf("Grade: A-\n");
+        break;
+    case 5:
+        printf("Grade: B\n");
+        break;
+    case 4:
+        printf("Grade: C\n");
+        break;
+    case 3:
+        printf("Grade: D\n");
+        break;
+    default:
+        printf("Grade: F\n");
+        break;
     }
 
     // without bug
 
-    if (marks >= 80 && marks <=100) {
+    if (marks >= 80 && marks <= 100)
+    {
         printf("You got A+");
-    } else if (marks >= 70 && marks <= 79) {
+    }
+    else if (marks >= 70 && marks <= 79)
+    {
         printf("You got A");
-    } else if (marks >=60 && marks <= 69) {
+    }
+    else if (marks >= 60 && marks <= 69)
+    {
         printf("You got A-");
-    } else if (marks >=50 && marks <= 59) {
+    }
+    else if (marks >= 50 && marks <= 59)
+    {
         printf("You got B");
-    } else if (marks >= 40 && marks <= 49) {
+    }
+    else if (marks >= 40 && marks <= 49)
+    {
         printf("You got C");
-    } else if (marks >= 33 && marks <= 39) {
+    }
+    else if (marks >= 33 && marks <= 39)
+    {
         printf("You got D");
-    } else {
+    }
+    else
+    {
         printf("You got F or You are fail");
     }
 

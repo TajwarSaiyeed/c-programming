@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
+int main()
+{
 
     /*
         Write a program to check whether a number
@@ -8,17 +9,11 @@ int main() {
 
     */
 
+    int a = 195;          // not divisible
+    printf("%d", a % 97); // 1
 
-    int a = 195; // not divisible
-    printf("%d", a%97); // 1
-
-    int b = 194; // divisible
-    printf("%d", b%97); // 0
-
-
-
-
+    int b = 194;          // divisible
+    printf("%d", b % 97); // 0
 
     return 0;
 }
-

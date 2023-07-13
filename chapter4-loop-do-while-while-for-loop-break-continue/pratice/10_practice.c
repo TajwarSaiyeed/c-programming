@@ -1,5 +1,5 @@
 
-#include<stdio.h>
+#include <stdio.h>
 
 /*
     Write a program to calculate the factorial
@@ -16,12 +16,14 @@
 
 */
 
-int main() {
+int main()
+{
 
-    int factorial=1, n = 4, i = 1;
+    int factorial = 1, n = 4, i = 1;
 
-    while(i<=n) {
-        factorial*=i;
+    while (i <= n)
+    {
+        factorial *= i;
         i++;
     }
 

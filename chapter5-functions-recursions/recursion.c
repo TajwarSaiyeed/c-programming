@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 /*
     Recursion:
         A function defined in C can call itself.
@@ -35,21 +35,23 @@
             resulting in a memory error.
 */
 
-
 int factorial(int n); // prototype
 
-int main() {
+int main()
+{
     int num = 4;
     int fac = factorial(num);
-    printf("The factorial of %d is : %d",num, fac);
+    printf("The factorial of %d is : %d", num, fac);
     return 0;
 }
 
-int factorial(int n) {
-    if (n == 0 || n == 1) {
+int factorial(int n)
+{
+    if (n == 0 || n == 1)
+    {
         return 1;
     }
-    return n * factorial(n-1);
+    return n * factorial(n - 1);
 
     /*
         Dry run of the factorial 4
@@ -61,7 +63,4 @@ int factorial(int n) {
         =24
 
     */
-
 }
-
-

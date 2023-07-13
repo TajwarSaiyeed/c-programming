@@ -28,21 +28,23 @@
     }
 */
 
-#include<stdio.h>
+#include <stdio.h>
 
-int main () {
+int main()
+{
 
-    int  a = 5;
+    int a = 5;
 
-    if (a > 4) {
+    if (a > 4)
+    {
         printf("a is greater than 4");
-    } else {
+    }
+    else
+    {
         printf("a is not greater that 4");
     }
 
     // NOTE: That else block is not necessary but optional
 
     return 0;
-
 }
-

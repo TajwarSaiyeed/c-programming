@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
+int main()
+{
     /*
         # Initialization of an Array
         There are many other ways in which an array can be initialized.
@@ -8,7 +9,7 @@ int main() {
 
     // Arrays can be initialized while declare
 
-    int cgpa[3] = {9,8,8};
+    int cgpa[3] = {9, 8, 8};
     float marks[4] = {3.3, 4.0, 99, 20};
 
     /*
@@ -30,13 +31,10 @@ int main() {
        -----------------------------------------
     */
 
-
-    for(int i = 0; i < 4; i++) {
-        printf("The marks scored by student %d is %.2f\n", i+1, marks[i]);
+    for (int i = 0; i < 4; i++)
+    {
+        printf("The marks scored by student %d is %.2f\n", i + 1, marks[i]);
     }
-
-
-
 
     return 0;
 }

@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
+int main()
+{
 
     // QUICK QUIZ: Write a program to print first n natural numbers using do-while loop.
 
@@ -16,17 +17,14 @@ int main() {
     int n;
     int i = 1;
 
-
     printf("Enter the value of n: ");
     scanf("%d", &n);
 
-
-
-    do{
+    do
+    {
         printf("I = %d\n", i);
         i++;
-    } while(i<=n);
-
+    } while (i <= n);
 
     return 0;
 }

@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 /*
     Chapter 7 - Array
 
@@ -8,15 +8,16 @@
 
 */
 
-int main () {
+int main()
+{
     /*
         Syntax
 
         The syntax of declaring an array looks like this:
     */
 
-    int marks[6]; // integer array
-    char name[20]; // character array or string
+    int marks[6];       // integer array
+    char name[20];      // character array or string
     float pecentic[90]; // float array
 
     // The values can now be assigned to marks array like this:
@@ -34,11 +35,9 @@ int main () {
     // marks: [7,6,5,7,9,12,110,55,10]
     // index: [0,1,2,3,4, 5,  6, 7, 8]
 
-
-    //for (int i = 0; i < marks; i++) {
-      //  printf("marks: %d is %d\n", i, marks[0]);
+    // for (int i = 0; i < marks; i++) {
+    //   printf("marks: %d is %d\n", i, marks[0]);
     //}
-
 
     printf("marks: 0 is %d\n", marks[0]);
     printf("marks: 1 is %d\n", marks[1]);
@@ -59,5 +58,4 @@ int main () {
     */
 
     return 0;
-
 }

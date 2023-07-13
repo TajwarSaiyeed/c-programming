@@ -1,7 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
-
-int main() {
+int main()
+{
 
     /**
         i++ -> i is increased by 1
@@ -13,14 +13,11 @@ int main() {
 
     */
 
-
-
-    int i =10, k=20;
+    int i = 10, k = 20;
     printf("i++ = %d", i++);
     printf("\ni = %d", i);
     printf("\nk-- = %d", k--);
     printf("\nk = %d", k);
-
 
     /*
         OUTPUT:
@@ -30,13 +27,12 @@ int main() {
             k = 19
     */
 
-
     /**
         ++j -> first increment then print the value
         --j -> first decrement then print the value
     */
 
-    int j = 10, l=20;
+    int j = 10, l = 20;
     printf("\n++j = %d", ++j);
     printf("\nj = %d", j);
     printf("\n--l = %d", --l);
@@ -49,7 +45,6 @@ int main() {
             --l = 19
             l = 19
     */
-
 
     /**
         +++ Operator does not exist => [Important]

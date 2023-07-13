@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 /*
     How to declare a pointer?
 
@@ -19,10 +19,10 @@
     from fellow programmers.
 */
 
-
 // creating pointer
 
-int main() {
+int main()
+{
     int i = 72;
     int *int_ptr = 5;
     int *j = &i;
@@ -34,4 +34,3 @@ int main() {
 
     return 0;
 }
-

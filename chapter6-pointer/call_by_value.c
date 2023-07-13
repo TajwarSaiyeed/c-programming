@@ -1,11 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int sum(int, int);
 
-int main() {
-    int x=10, y = 20;
-    printf("The value of x + y is %d\n",sum(x,y));
-    printf("The value of x and y is %d and %d",x, y);
+int main()
+{
+    int x = 10, y = 20;
+    printf("The value of x + y is %d\n", sum(x, y));
+    printf("The value of x and y is %d and %d", x, y);
     /*
       Call by value
 
@@ -23,12 +24,11 @@ int main() {
 
     */
 
-
-
     return 0;
 }
 
-int sum(int x, int y) {
-    x=26; // the value of x is change here not in the variable x in main function.
-    return x+y;
+int sum(int x, int y)
+{
+    x = 26; // the value of x is change here not in the variable x in main function.
+    return x + y;
 }

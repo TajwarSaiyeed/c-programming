@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /*
     Write a program to calculate the factorial
@@ -15,11 +15,13 @@
 
 */
 
-int main() {
+int main()
+{
 
-    int factorial=1, n = 4;
-    for(int i = 1; i <= n; i++) {
-        factorial*=i;
+    int factorial = 1, n = 4;
+    for (int i = 1; i <= n; i++)
+    {
+        factorial *= i;
     }
 
     printf("The factorial of %d is %d", n, factorial);

@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /*
     The continue statement:
@@ -11,21 +11,24 @@
 
 */
 
-int main() {
+int main()
+{
 
     int skip = 5;
     int i = 0;
 
-    for(i; i<20; i++) {
-        if (i == skip) {
+    for (i; i < 20; i++)
+    {
+        if (i == skip)
+        {
             continue;
-        } else {
+        }
+        else
+        {
             printf("The value of i : %d\n", i);
         }
     }
     // OUTPUT: The value of i : 5
-
-
 
     return 0;
 }

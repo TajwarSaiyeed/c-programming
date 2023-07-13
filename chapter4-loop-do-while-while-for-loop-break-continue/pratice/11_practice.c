@@ -1,5 +1,5 @@
 
-#include<stdio.h>
+#include <stdio.h>
 
 /*
     Write a program to check whether a given
@@ -14,24 +14,27 @@
     For example, 3 is divisible only by 1 and 3.
 */
 
-int main() {
+int main()
+{
 
-    int n = 91, isPrime=1;
+    int n = 91, isPrime = 1;
 
-    for(int i = 2; i < n; i++) {
-        if (n%i == 0) {
+    for (int i = 2; i < n; i++)
+    {
+        if (n % i == 0)
+        {
             isPrime = 0;
             break;
         }
     }
-    if(isPrime) {
-            printf("%d is a prime number", n);
-        } else {
-            printf("%d is not prime number", n);
-        }
-
-
+    if (isPrime)
+    {
+        printf("%d is a prime number", n);
+    }
+    else
+    {
+        printf("%d is not prime number", n);
+    }
 
     return 0;
 }
-

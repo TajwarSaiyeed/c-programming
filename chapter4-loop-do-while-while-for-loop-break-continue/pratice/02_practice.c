@@ -1,5 +1,5 @@
 
-#include<stdio.h>
+#include <stdio.h>
 
 /*
     write a program to print multiplication
@@ -9,12 +9,14 @@
 
 */
 
-int main() {
+int main()
+{
     int n;
     printf("Enter the value of n: ");
     scanf("%d", &n);
-    for(int i = 10; i >= 1; i--) {
-        printf("%d X %d = %d\n", n, i, n*i);
+    for (int i = 10; i >= 1; i--)
+    {
+        printf("%d X %d = %d\n", n, i, n * i);
     }
 
     /*
@@ -31,7 +33,6 @@ int main() {
                 5 X 2 = 10
                 5 X 1 = 5
     */
-
 
     return 0;
 }

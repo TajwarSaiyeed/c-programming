@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
+int main()
+{
     /*
         while loop
             while(condition is true) {
@@ -15,7 +16,8 @@ int main() {
 
     int i = 1;
 
-    while(i<=10) {
+    while (i <= 10)
+    {
         printf("The value of i is: %d\n", i);
         i++;
 
@@ -40,7 +42,6 @@ int main() {
             is known as an infinite loop
         **/
     }
-
 
     return 0;
 }

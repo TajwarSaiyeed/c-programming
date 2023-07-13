@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
@@ -9,8 +9,5 @@ int main()
 
     printf("abid: %d\nabid_Char: %c\nabid_float: %.2f\nAbid: %d", abid, abid_Char, abid_float, Abid);
 
-
     return 0;
 }
-
-

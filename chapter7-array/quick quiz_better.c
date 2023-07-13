@@ -1,16 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
 /*
     Write a program to accept marks of five students in an array
     and print them to the screen
 */
-int main() {
+int main()
+{
     int marks[5];
-    for(int i = 0; i < 5; i++) {
-        printf("Enter the marks for %d: ", i+1);
+    for (int i = 0; i < 5; i++)
+    {
+        printf("Enter the marks for %d: ", i + 1);
         scanf("%d", &marks[i]);
     }
-    for(int i = 0; i < 5; i++) {
-        printf("\nThe marks scored by student %d is %d", i+1, marks[i]);
+    for (int i = 0; i < 5; i++)
+    {
+        printf("\nThe marks scored by student %d is %d", i + 1, marks[i]);
     }
     return 0;
 }

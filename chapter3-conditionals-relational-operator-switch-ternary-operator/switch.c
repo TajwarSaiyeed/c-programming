@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /*
     @switch case central instruction
@@ -35,21 +35,20 @@
             3. A switch can occur within another but in practice this is rarely done.
 */
 
-
-int main() {
+int main()
+{
     int age = 26;
-    switch(age) {
-        case 24:
-            printf("You are 24\n");
-            break;
-        case 25:
-            printf("You are 25\n");
-            break;
-        default:
-            printf("You are %d\n", age);
+    switch (age)
+    {
+    case 24:
+        printf("You are 24\n");
+        break;
+    case 25:
+        printf("You are 25\n");
+        break;
+    default:
+        printf("You are %d\n", age);
     }
-
-
 
     return 0;
 }

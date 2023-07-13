@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
+int main()
+{
 
     /*
         do-while loop
@@ -22,10 +23,11 @@ int main() {
 
     int i = 7;
 
-    do{
+    do
+    {
         printf("I = %d\n", i);
         i++;
-    } while(i<5);
+    } while (i < 5);
 
     /*
         first do and than check the while (condition). if condition false it will stop the program
@@ -33,8 +35,6 @@ int main() {
             I = 7
 
     */
-
-
 
     return 0;
 }

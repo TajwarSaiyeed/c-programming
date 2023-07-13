@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /*
     Passing values to functions
@@ -15,33 +15,29 @@ int sum(int a, int b), change(int f); // function prototype
     and return a value of type int.
 */
 
+int main()
+{
 
-int main () {
-
-    int c=20, d=30;
+    int c = 20, d = 30;
 
     // values
     int answer = sum(100, 6);
 
     // variable placeholders
     int answer2 = sum(c, d);
-                    // here c & d are arguments
+    // here c & d are arguments
 
-     /*
-        Note:
-            1. Parameters are the values or variable placeholders in the function. Ex a & b;
+    /*
+       Note:
+           1. Parameters are the values or variable placeholders in the function. Ex a & b;
 
-            2. Arguments are the actual values passed to the function to make a call. Ex 2 & 3;
+           2. Arguments are the actual values passed to the function to make a call. Ex 2 & 3;
 
-            3. A functions can return only one value at a time.
+           3. A functions can return only one value at a time.
 
-            4. If the passed variable is changed inside the function,
-                the functions call does not  change the value in the calling functions
-     */
-
-
-
-
+           4. If the passed variable is changed inside the function,
+               the functions call does not  change the value in the calling functions
+    */
 
     printf("The value of sum (answer) : %d\n", answer);
     // OUTPUT: The value of sum : 106
@@ -57,25 +53,25 @@ int main () {
     return 0;
 }
 
-
-
 // function definition of sum can be:
 
-int sum(int a, int b) {
+int sum(int a, int b)
+{
     // a & b are parameters
     int sum;
     sum = a + b;
     return sum;
 }
 
-int change(int f) {
+int change(int f)
+{
 
     f = 77;
 
     printf("\nchange f: %d", f); // change f: 77
 
-        /* 4. If the passed variable is changed inside the function,
-                the functions call does not  change the value in the calling functions */
+    /* 4. If the passed variable is changed inside the function,
+            the functions call does not  change the value in the calling functions */
 
     return f;
 }
