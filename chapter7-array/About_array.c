@@ -23,7 +23,7 @@ int main()
     // 1 bytes = 8 bits
 
     /*
-        This will reserve 4x3=12 bytes in memory 4 bytes for each integer.
+        This will reserve 4x3=12 bytes. in memory 4 bytes for each integer.
 
        _________________________________________
       |    1,     2,     3                      |

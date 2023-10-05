@@ -2,7 +2,7 @@
 /*
     Chapter 7 - Array
 
-    An array is a collection of similar elements.
+    An array is a collection of similar(!important) elements.
 
     one variable => capable of storing multiple values.
 
@@ -32,8 +32,8 @@ int main()
     /*
     NOTE: It is very important to note that the array *index starts with 0;
     */
-    // marks: [7,6,5,7,9,12,110,55,10]
-    // index: [0,1,2,3,4, 5,  6, 7, 8]
+    // marks: [7, 6, 5, 7, 9, 12, 110, 55, 10]
+    // index: [0, 1, 2, 3, 4,  5,   6,  7,  8]
 
     // for (int i = 0; i < marks; i++) {
     //   printf("marks: %d is %d\n", i, marks[0]);
